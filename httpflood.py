@@ -37,7 +37,7 @@ def main(url, num_threads, num_requests):
 if __name__ == "__main__":
     import argparse
 
-    parser = argparse.ArgumentParser(description="Fast HTTP request flooder using concuretnt threads. Developed for testing only (@comradezephyr)")
+    parser = argparse.ArgumentParser(description="Fast HTTP request flooder using concuretnt threads. Developed for testing only. ALR- @comradezephyr")
     parser.add_argument("url", help="Target URL to send requests to")
     parser.add_argument("-t", "--threads", type=int, default=10, help="Number of concurrent threads (default: 10)")
     parser.add_argument("-n", "--requests", type=int, default=100, help="Total number of requests to send (default: 100)")
